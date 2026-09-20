@@ -1,0 +1,53 @@
+# robots.txt for https://www.changyouq.com
+# 畅有趣小游戏 - 免费在线 H5 小游戏平台
+
+User-agent: *
+Allow: /
+
+# 常见搜索引擎（显式声明，均允许抓取）
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+# AI / 生成式引擎爬虫（GEO 优化：允许用于 AI 搜索与引用）
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# 不希望被收录的目录（如确有后台或临时页面可在此添加 Disallow）
+
+Sitemap: https://www.changyouq.com/sitemap.xml
